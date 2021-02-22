@@ -1,3 +1,119 @@
+@font-face {
+    font-family: 'ZombieStory';
+    src: url('../fonts/ZombieStory.woff2') format('woff2'),
+        url('../fonts/ZombieStory.woff') format('woff'),
+        url('../fonts/ZombieStory.svg#ZombieStory') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'a Angkatan Bersenjata';
+    src: url('../fonts/aAngkatanBersenjata.woff2') format('woff2'),
+        url('../fonts/aAngkatanBersenjata.woff') format('woff'),
+        url('../fonts/aAngkatanBersenjata.svg#aAngkatanBersenjata') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'a Anterobot';
+    src: url('../fonts/aAnterobot.woff2') format('woff2'),
+        url('../fonts/aAnterobot.woff') format('woff'),
+        url('../fonts/aAnterobot.svg#aAnterobot') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Apocalypse';
+    src: url('../fonts/Apocalypse1.woff2') format('woff2'),
+        url('../fonts/Apocalypse1.woff') format('woff'),
+        url('../fonts/Apocalypse1.svg#Apocalypse1') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Apocalypse';
+    src: url('../fonts/Apocalypse.woff2') format('woff2'),
+        url('../fonts/Apocalypse.woff') format('woff'),
+        url('../fonts/Apocalypse.svg#Apocalypse') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cabo Rounded';
+    src: url('../fonts/CaboRoundedRegularRegular.woff2') format('woff2'),
+        url('../fonts/CaboRoundedRegularRegular.woff') format('woff'),
+        url('../fonts/CaboRoundedRegularRegular.svg#CaboRoundedRegularRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cactus On The Moon';
+    src: url('../fonts/Cactus-On-The-Moon.woff2') format('woff2'),
+        url('../fonts/Cactus-On-The-Moon.woff') format('woff'),
+        url('../fonts/Cactus-On-The-Moon.svg#Cactus-On-The-Moon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'D Day Stencil';
+    src: url('../fonts/DDayStencil.woff2') format('woff2'),
+        url('../fonts/DDayStencil.woff') format('woff'),
+        url('../fonts/DDayStencil.svg#DDayStencil') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Soviet Style';
+    src: url('../fonts/SovietStyle.woff2') format('woff2'),
+        url('../fonts/../fonts/SovietStyle.woff') format('woff'),
+        url('../fonts/SovietStyle.svg#SovietStyle') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Soviet';
+    src: url('../fonts/Soviet.woff2') format('woff2'),
+        url('../fonts/Soviet.woff') format('woff'),
+        url('../fonts/Soviet.svg#Soviet') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ZombieStory';
+    src: url('../fonts/ZombieStory.woff2') format('woff2'),
+        url('../fonts/ZombieStory.woff') format('woff'),
+        url('../fonts/ZombieStory.svg#ZombieStory') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
 @charset "UTF-8";
 /*!
 * Start Bootstrap - Agency v6.0.3 (https://startbootstrap.com/theme/agency)
@@ -17,18 +133,18 @@
   --pink: #e83e8c;
   --red: #dc3545;
   --orange: #fd7e14;
-  --yellow: #fed136;
+  --yellow: yellowgreen;
   --green: #28a745;
   --teal: #20c997;
   --cyan: #17a2b8;
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --primary: #fed136;
+  --primary: yellowgreen;
   --secondary: #6c757d;
   --success: #28a745;
   --info: #17a2b8;
-  --warning: #fed136;
+  --warning: yellowgreen;
   --danger: #dc3545;
   --light: #f8f9fa;
   --dark: #343a40;
@@ -37,8 +153,6 @@
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
 *,
@@ -47,8 +161,13 @@
   box-sizing: border-box;
 }
 
+::selection{
+    background-color: yellowgreen;
+    color: black;
+}
+
 html {
-  font-family: sans-serif;
+  font-family: "Soviet";
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -58,15 +177,20 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
 }
 
+.masthead-heading{
+    font-family: "a Angkatan Bersenjata"!important;
+    word-break: break-all;
+    font-size: 9vw !important;   
+}
 body {
   margin: 0;
-  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: 'Montserrat', sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff;
+  background-color: yellowgreen;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -159,7 +283,7 @@ sup {
 }
 
 a {
-  color: #fed136;
+  color: yellowgreen;
   text-decoration: none;
   background-color: transparent;
 }
@@ -361,7 +485,7 @@ template {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Soviet";
   font-weight: 700;
   line-height: 1.2;
 }
@@ -2438,8 +2562,8 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: yellowgreen;
+  border-color: yellowgreen;
 }
 .btn-primary:hover {
   color: #fff;
@@ -2454,8 +2578,8 @@ fieldset:disabled a.btn {
 }
 .btn-primary.disabled, .btn-primary:disabled {
   color: #fff;
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: yellowgreen;
+  border-color: yellowgreen;
 }
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
   color: #fff;
@@ -2558,8 +2682,8 @@ fieldset:disabled a.btn {
 
 .btn-warning {
   color: #fff;
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: yellowgreen;
+  border-color: yellowgreen;
 }
 .btn-warning:hover {
   color: #fff;
@@ -2574,8 +2698,8 @@ fieldset:disabled a.btn {
 }
 .btn-warning.disabled, .btn-warning:disabled {
   color: #fff;
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: yellowgreen;
+  border-color: yellowgreen;
 }
 .btn-warning:not(:disabled):not(.disabled):active, .btn-warning:not(:disabled):not(.disabled).active, .show > .btn-warning.dropdown-toggle {
   color: #fff;
@@ -2677,25 +2801,25 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-primary {
-  color: #fed136;
-  border-color: #fed136;
+  color: yellowgreen;
+  border-color: yellowgreen;
 }
 .btn-outline-primary:hover {
   color: #fff;
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: yellowgreen;
+  border-color: yellowgreen;
 }
 .btn-outline-primary:focus, .btn-outline-primary.focus {
   box-shadow: 0 0 0 0.2rem rgba(254, 209, 54, 0.5);
 }
 .btn-outline-primary.disabled, .btn-outline-primary:disabled {
-  color: #fed136;
+  color: yellowgreen;
   background-color: transparent;
 }
 .btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active, .show > .btn-outline-primary.dropdown-toggle {
   color: #fff;
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: yellowgreen;
+  border-color: yellowgreen;
 }
 .btn-outline-primary:not(:disabled):not(.disabled):active:focus, .btn-outline-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-primary.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.2rem rgba(254, 209, 54, 0.5);
@@ -2777,25 +2901,25 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-warning {
-  color: #fed136;
-  border-color: #fed136;
+  color: yellowgreen;
+  border-color: yellowgreen;
 }
 .btn-outline-warning:hover {
   color: #fff;
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: yellowgreen;
+  border-color: yellowgreen;
 }
 .btn-outline-warning:focus, .btn-outline-warning.focus {
   box-shadow: 0 0 0 0.2rem rgba(254, 209, 54, 0.5);
 }
 .btn-outline-warning.disabled, .btn-outline-warning:disabled {
-  color: #fed136;
+  color: yellowgreen;
   background-color: transparent;
 }
 .btn-outline-warning:not(:disabled):not(.disabled):active, .btn-outline-warning:not(:disabled):not(.disabled).active, .show > .btn-outline-warning.dropdown-toggle {
   color: #fff;
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: yellowgreen;
+  border-color: yellowgreen;
 }
 .btn-outline-warning:not(:disabled):not(.disabled):active:focus, .btn-outline-warning:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-warning.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.2rem rgba(254, 209, 54, 0.5);
@@ -2878,7 +3002,7 @@ fieldset:disabled a.btn {
 
 .btn-link {
   font-weight: 400;
-  color: #fed136;
+  color: yellowgreen;
   text-decoration: none;
 }
 .btn-link:hover {
@@ -3155,7 +3279,7 @@ input[type=button].btn-block {
 .dropdown-item.active, .dropdown-item:active {
   color: #fff;
   text-decoration: none;
-  background-color: #fed136;
+  background-color: yellowgreen;
 }
 .dropdown-item.disabled, .dropdown-item:disabled {
   color: #6c757d;
@@ -3484,8 +3608,8 @@ input[type=button].btn-block {
 }
 .custom-control-input:checked ~ .custom-control-label::before {
   color: #fff;
-  border-color: #fed136;
-  background-color: #fed136;
+  border-color: yellowgreen;
+  background-color: yellowgreen;
 }
 .custom-control-input:focus ~ .custom-control-label::before {
   box-shadow: 0 0 0 0.2rem rgba(254, 209, 54, 0.25);
@@ -3540,8 +3664,8 @@ input[type=button].btn-block {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26l2.974 2.99L8 2.193z'/%3e%3c/svg%3e");
 }
 .custom-checkbox .custom-control-input:indeterminate ~ .custom-control-label::before {
-  border-color: #fed136;
-  background-color: #fed136;
+  border-color: yellowgreen;
+  background-color: yellowgreen;
 }
 .custom-checkbox .custom-control-input:indeterminate ~ .custom-control-label::after {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3e%3cpath stroke='%23fff' d='M0 2h4'/%3e%3c/svg%3e");
@@ -3743,7 +3867,7 @@ input[type=button].btn-block {
   width: 1rem;
   height: 1rem;
   margin-top: -0.25rem;
-  background-color: #fed136;
+  background-color: yellowgreen;
   border: 0;
   border-radius: 1rem;
   -webkit-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -3772,7 +3896,7 @@ input[type=button].btn-block {
 .custom-range::-moz-range-thumb {
   width: 1rem;
   height: 1rem;
-  background-color: #fed136;
+  background-color: yellowgreen;
   border: 0;
   border-radius: 1rem;
   -moz-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -3804,7 +3928,7 @@ input[type=button].btn-block {
   margin-top: 0;
   margin-right: 0.2rem;
   margin-left: 0.2rem;
-  background-color: #fed136;
+  background-color: yellowgreen;
   border: 0;
   border-radius: 1rem;
   -ms-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -3925,7 +4049,7 @@ input[type=button].btn-block {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #fed136;
+  background-color: yellowgreen;
 }
 
 .nav-fill > .nav-link,
@@ -4576,7 +4700,7 @@ input[type=button].btn-block {
   padding: 0.5rem 0.75rem;
   margin-left: -1px;
   line-height: 1.25;
-  color: #fed136;
+  color: yellowgreen;
   background-color: #fff;
   border: 1px solid #dee2e6;
 }
@@ -4605,8 +4729,8 @@ input[type=button].btn-block {
 .page-item.active .page-link {
   z-index: 3;
   color: #fff;
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: yellowgreen;
+  border-color: yellowgreen;
 }
 .page-item.disabled .page-link {
   color: #6c757d;
@@ -4682,7 +4806,7 @@ a.badge:hover, a.badge:focus {
 
 .badge-primary {
   color: #fff;
-  background-color: #fed136;
+  background-color: yellowgreen;
 }
 a.badge-primary:hover, a.badge-primary:focus {
   color: #fff;
@@ -4734,7 +4858,7 @@ a.badge-info:focus, a.badge-info.focus {
 
 .badge-warning {
   color: #fff;
-  background-color: #fed136;
+  background-color: yellowgreen;
 }
 a.badge-warning:hover, a.badge-warning:focus {
   color: #fff;
@@ -4961,7 +5085,7 @@ a.badge-dark:focus, a.badge-dark.focus {
   color: #fff;
   text-align: center;
   white-space: nowrap;
-  background-color: #fed136;
+  background-color: yellowgreen;
   transition: width 0.6s ease;
 }
 @media (prefers-reduced-motion: reduce) {
@@ -5042,8 +5166,8 @@ a.badge-dark:focus, a.badge-dark.focus {
 .list-group-item.active {
   z-index: 2;
   color: #fff;
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: yellowgreen;
+  border-color: yellowgreen;
 }
 .list-group-item + .list-group-item {
   border-top-width: 0;
@@ -6073,7 +6197,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #fed136 !important;
+  background-color: yellowgreen !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -6113,7 +6237,7 @@ button.bg-info:focus {
 }
 
 .bg-warning {
-  background-color: #fed136 !important;
+  background-color: yellowgreen !important;
 }
 
 a.bg-warning:hover, a.bg-warning:focus,
@@ -6201,7 +6325,7 @@ button.bg-dark:focus {
 }
 
 .border-primary {
-  border-color: #fed136 !important;
+  border-color: yellowgreen !important;
 }
 
 .border-secondary {
@@ -6217,7 +6341,7 @@ button.bg-dark:focus {
 }
 
 .border-warning {
-  border-color: #fed136 !important;
+  border-color: yellowgreen !important;
 }
 
 .border-danger {
@@ -6270,6 +6394,12 @@ button.bg-dark:focus {
 
 .rounded-circle {
   border-radius: 50% !important;
+  
+}
+
+.img-fluid{
+    min-width: 100% !important;
+    max-height: 336px;
 }
 
 .rounded-pill {
@@ -9775,7 +9905,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #fed136 !important;
+  color: yellowgreen !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -9807,7 +9937,7 @@ a.text-info:hover, a.text-info:focus {
 }
 
 .text-warning {
-  color: #fed136 !important;
+  color: yellowgreen !important;
 }
 
 a.text-warning:hover, a.text-warning:focus {
@@ -9844,6 +9974,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .text-muted {
   color: #6c757d !important;
+  text-align: justify;
 }
 
 .text-black-50 {
@@ -9992,13 +10123,15 @@ p {
   font-size: 2.5rem;
   margin-top: 0;
   margin-bottom: 1rem;
+  color:snow;
 }
 .page-section h3.section-subheading {
   font-size: 1rem;
   font-weight: 400;
   font-style: italic;
-  font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Soviet";
   margin-bottom: 4rem;
+  text-align: center;
 }
 
 @media (min-width: 768px) {
@@ -10007,14 +10140,10 @@ p {
   }
 }
 ::-moz-selection {
-  background: #fed136;
+  background: yellowgreen;
   text-shadow: none;
 }
 
-::selection {
-  background: #fed136;
-  text-shadow: none;
-}
 
 img::-moz-selection {
   background: transparent;
@@ -10030,7 +10159,7 @@ img::-moz-selection {
 
 .btn-xl {
   padding: 1.25rem 2.5rem;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Soviet";
   font-size: 1.125rem;
   font-weight: 700;
 }
@@ -10052,16 +10181,16 @@ img::-moz-selection {
 }
 #mainNav .navbar-toggler {
   padding: 0.75rem;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Soviet";
   font-size: 0.75rem;
   color: #fff;
   text-transform: uppercase;
-  background-color: #fed136;
+  background-color: yellowgreen;
   border: 0;
 }
 #mainNav .navbar-brand {
-  color: #fed136;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: yellowgreen;
+  font-family: "Soviet";
   font-weight: 700;
   letter-spacing: 0.0625em;
   text-transform: uppercase;
@@ -10070,13 +10199,13 @@ img::-moz-selection {
   height: 1.5rem;
 }
 #mainNav .navbar-nav .nav-item .nav-link {
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Soviet";
   font-size: 0.95rem;
   color: #fff;
   letter-spacing: 0.0625em;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #fed136;
+  color: yellowgreen;
 }
 
 @media (min-width: 992px) {
@@ -10119,25 +10248,28 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/header-bg.jpg");
+  background-image: url("../assets/img/abandonedpripyatchernobyl16-745x497.jpg.optimal.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
 }
+.section-subheading{
+    font-style: normal !important;
+}
 header.masthead .masthead-subheading {
   font-size: 1.5rem;
-  font-style: italic;
   line-height: 1.5rem;
   margin-bottom: 25px;
-  font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal !important;
 }
 header.masthead .masthead-heading {
   font-size: 3.25rem;
   font-weight: 700;
   line-height: 3.25rem;
   margin-bottom: 2rem;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Soviet";
 }
 
 @media (min-width: 768px) {
@@ -10193,13 +10325,14 @@ header.masthead .masthead-heading {
 }
 #portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
   font-size: 1.5rem;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Soviet";
   font-weight: 700;
   margin-bottom: 0;
 }
 #portfolio .portfolio-item .portfolio-caption .portfolio-caption-subheading {
-  font-style: italic;
-  font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-style: normal;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
 }
 
 .portfolio-modal .modal-dialog {
@@ -10218,7 +10351,7 @@ header.masthead .masthead-heading {
 .portfolio-modal .modal-content p.item-intro {
   font-style: italic;
   margin-bottom: 2rem;
-  font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Soviet";
 }
 .portfolio-modal .modal-content p {
   margin-bottom: 2rem;
@@ -10241,6 +10374,7 @@ header.masthead .masthead-heading {
 .portfolio-modal .close-modal:hover {
   opacity: 0.3;
 }
+
 
 .timeline {
   position: relative;
@@ -10299,7 +10433,7 @@ header.masthead .masthead-heading {
   color: white;
   border: 7px solid #e9ecef;
   border-radius: 100%;
-  background-color: #fed136;
+  background-color: yellowgreen;
 }
 .timeline > li .timeline-image h4 {
   font-size: 10px;
@@ -10430,7 +10564,7 @@ section#contact {
   background-position: center;
 }
 section#contact .section-heading {
-  color: #fff;
+  color: #252625;
 }
 section#contact form#contactForm .form-group {
   margin-bottom: 1.5rem;
@@ -10453,26 +10587,26 @@ section#contact form#contactForm p.help-block {
   margin: 0;
 }
 section#contact form#contactForm .form-control:focus {
-  border-color: #fed136;
+  border-color: yellowgreen;
   box-shadow: none;
 }
 section#contact form#contactForm ::-webkit-input-placeholder {
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Soviet";
   font-weight: 700;
   color: #ced4da;
 }
 section#contact form#contactForm :-moz-placeholder {
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Soviet";
   font-weight: 700;
   color: #ced4da;
 }
 section#contact form#contactForm ::-moz-placeholder {
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Soviet";
   font-weight: 700;
   color: #ced4da;
 }
 section#contact form#contactForm :-ms-input-placeholder {
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Soviet";
   font-weight: 700;
   color: #ced4da;
 }
@@ -10480,5 +10614,15 @@ section#contact form#contactForm :-ms-input-placeholder {
 .footer {
   text-align: center;
   font-size: 0.9rem;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Soviet";
+}
+
+li{
+    text-align: justify;
+    color: snow;
+}
+
+em{
+    color: greenyellow;
+    background-color: black;
 }

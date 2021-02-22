@@ -1,0 +1,110 @@
+@font-face {
+    font-family: 'ZombieStory';
+    src: url('ZombieStory.woff2') format('woff2'),
+        url('ZombieStory.woff') format('woff'),
+        url('ZombieStory.svg#ZombieStory') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'a Angkatan Bersenjata';
+    src: url('aAngkatanBersenjata.woff2') format('woff2'),
+        url('aAngkatanBersenjata.woff') format('woff'),
+        url('aAngkatanBersenjata.svg#aAngkatanBersenjata') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'a Anterobot';
+    src: url('aAnterobot.woff2') format('woff2'),
+        url('aAnterobot.woff') format('woff'),
+        url('aAnterobot.svg#aAnterobot') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Apocalypse';
+    src: url('Apocalypse1.woff2') format('woff2'),
+        url('Apocalypse1.woff') format('woff'),
+        url('Apocalypse1.svg#Apocalypse1') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Apocalypse';
+    src: url('Apocalypse.woff2') format('woff2'),
+        url('Apocalypse.woff') format('woff'),
+        url('Apocalypse.svg#Apocalypse') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cabo Rounded';
+    src: url('CaboRoundedRegularRegular.woff2') format('woff2'),
+        url('CaboRoundedRegularRegular.woff') format('woff'),
+        url('CaboRoundedRegularRegular.svg#CaboRoundedRegularRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cactus On The Moon';
+    src: url('Cactus-On-The-Moon.woff2') format('woff2'),
+        url('Cactus-On-The-Moon.woff') format('woff'),
+        url('Cactus-On-The-Moon.svg#Cactus-On-The-Moon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'D Day Stencil';
+    src: url('DDayStencil.woff2') format('woff2'),
+        url('DDayStencil.woff') format('woff'),
+        url('DDayStencil.svg#DDayStencil') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Soviet Style';
+    src: url('SovietStyle.woff2') format('woff2'),
+        url('SovietStyle.woff') format('woff'),
+        url('SovietStyle.svg#SovietStyle') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Soviet';
+    src: url('Soviet.woff2') format('woff2'),
+        url('Soviet.woff') format('woff'),
+        url('Soviet.svg#Soviet') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ZombieStory';
+    src: url('ZombieStory.woff2') format('woff2'),
+        url('ZombieStory.woff') format('woff'),
+        url('ZombieStory.svg#ZombieStory') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
