@@ -5677,6 +5677,15 @@ a.close.disabled {
   padding: 1rem;
 }
 
+@media (max-width:500px){
+    .modal-body li{
+  padding-left: .5rem;
+  padding-right: .5rem;
+  text-align: left;
+}
+
+}
+
 .modal-footer {
   display: flex;
   flex-wrap: wrap;
