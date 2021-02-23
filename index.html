@@ -339,27 +339,25 @@
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">ER Model</h2>
-                    <h3 class="section-subheading text-muted">Linked open data project</h3>
                 </div>
                 <div class="row text-center">
                     <div class="col-md-12">
-                        
-                        <h4 class="my-3">The Project</h4>
-                        <p class="text-muted">Chenobyl disaster is a project realized by Amanda Culoma, Arianna Moretti, Ariele Santello and Benedetta Togni for the Knowledge Organization  and Digital Methods in the Cultural Heritage Domain course held by Francesca Tomasi within the Digital Humanities and Digital Knowledge master course (University of Bologna).</p>
-                    </div>
-                    <div class="col-md-12">
-                        
-                        <h4 class="my-3">The Idea</h4>
-                        <p class="text-muted">The catastrophe of Chernobyl nuclear power plant in the April of 1986 represents a tragedy from a historical, environmental, human and political point of view. Thirty-four years later, the disaster and its consequences are still so impressed in the collective memory to be evoked in tributes and creative works (such as the miniseries “Chernobyl”, produced in 2019 by HBO). Further, the disaster of Fukushima, the debates related to nuclear energy in Italy, and the more recent forest fires around Chernobyl rose attention on the topic that we selected as the core of our knowledge model. In the development of the project, we decided to examine the phenomenon starting from the artefacts which took inspiration form it, either in direct or indirect way. We implemented a knowledge system starting from the central event and taking into consideration people, places, events, concepts and items related to it. In the implementation of the project, we operated a progressive abstraction of the model through various steps, in order to make it available for possible further representations of similar topics.</p>
-                    </div>
-                    <div class="col-md-12">
-                        <h4 class="my-3">Items' choice </h4>
-                        <p class="text-muted">We selected twelve items described by referenced cultural institutions, in order to build a knowledge model in which they could be related to the core topic. </p>
+                        <p class="text-muted">In this step of the project we organized our knowledge system as an <em>Entity-Relationship model</em>. Our aim was to give a <em>first graphic rendering</em> of the project in <em>natural language</em>, improving its comprehensibility and readability both at generic and specific level. In order to represent the interconnections between the main event and other entities and item related to it, we developed two <em>distinct models</em>:</p>
                         <ul>
-                            <li> We variated as much as possible in the choice of both types and contents. Accordingly, we included: books (both eBooks and printed publications), a journal article, movies, audio files, photos, a painting and a videogame.</li>
-                            <li>As for the content, some of the items have their focus on the event itself, while others represent it indirectly, revisiting it (e.g.: “Grebeny- The burning village after Borsch”) or taking inspiration from it (e.g.: “Time will crawl”, song). Further, we included also artefacts freely inspired by the post-apocalyptic places abandoned after the event, or by further concepts and events related to the accident. In particular, some of them are connected to the long-term consequences of the explosion or to the legal process for the attribution of responsibilities. </li>
-                            <li>For this reason, not all of the items included in the model are structurally connected to the central event, since some of them are indirectly linked with it through other entities.</li>
+                            <li>For the first one, we kept a <em>generic description-line</em>, in order to represent the <em>minimum units</em> included in our extended model, i.e.: dates, events, places, people and artefacts. Entities and items are linked through <em>arrows</em>, which represent the <em>connections</em> through <em>generic but significant properties</em>. This first version is meant to clearly represent our workflow in a comprehensive and easily-readable way. Further, it’s intended to be reused as a tool by those who may wish to face the implementation of a more specific E/R model for a topic similar to the one we chose.</li>
+                            <li>The second version of the E/R model is more <em>detailed</em>. Here, we <em>nominally</em> represented all <em>twelve selected items</em> and the <em>six entities</em> chosen to connect them within the knowledge system. This version allowed us to represent <em>interconnections</em> with <em>accuracy</em> and <em>terminological variety</em>.</li>
                         </ul>
+                    </div>
+                    <div class="col-md-12">
+                        
+                        <h3 class="my-3">First Entity-Relationship model</h3>
+                        <img src="assets/img/entrelmod1.png" class="myimg">
+                        
+                        <h3 class="my-3">Final Entity-Relationship model</h3>
+                        <img src="assets/img/entrelmod2.png" class="myimg">
+                        <h3 class="my-3">Map Legend</h3>
+                        <img src="assets/img/legenda.jpeg" class="myimg">
+                        
                     </div>
                 </div>
             </div>
@@ -404,28 +402,62 @@
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Theoretical Model</h2>
-                    <h3 class="section-subheading text-muted">Linked open data project</h3>
                 </div>
                 <div class="row text-center">
                     <div class="col-md-12">
-                        
-                        <h4 class="my-3">The Project</h4>
-                        <p class="text-muted">Chenobyl disaster is a project realized by Amanda Culoma, Arianna Moretti, Ariele Santello and Benedetta Togni for the Knowledge Organization  and Digital Methods in the Cultural Heritage Domain course held by Francesca Tomasi within the Digital Humanities and Digital Knowledge master course (University of Bologna).</p>
+                        <p class="text-muted">This theoretical model was developed following some macro questions intended to describe people, places, dates, events and concepts. This passage is meant to mediate between the E/R and the conceptual model, in a path of growing abstraction. </p>
+                        <p class="text-muted">
+                        We subdivided the description of the entities in four macro categories, associating each one of them to a specific w-question:</p>
+                        <ol>
+                            <li> <em>Who</em>: for the description of <em>people</em></li>
+                            <li> <em>When</em> : for the description of <em>dates</em></li>
+                            <li> <em>Where</em>: for the description of <em>places</em> </li>
+                            <li><em>What</em>: for the description of <em>concepts</em> and <em>events</em> (+ <em>items</em>)</li>
+                        </ol>
+                        <p class="text-muted">
+                        For completeness, Taking inspiration form the alignment, we inserted in the “what” area a special section to offer a schematic representations also for the items. </p>
+                        <p class="text-muted">
+                        We provided both a textual description and a conceptual map expressed in <em>natural language</em>, in which we substituted specific names of entities and items with generic ones, representing their type.</p>
                     </div>
                     <div class="col-md-12">
-                        
-                        <h4 class="my-3">The Idea</h4>
-                        <p class="text-muted">The catastrophe of Chernobyl nuclear power plant in the April of 1986 represents a tragedy from a historical, environmental, human and political point of view. Thirty-four years later, the disaster and its consequences are still so impressed in the collective memory to be evoked in tributes and creative works (such as the miniseries “Chernobyl”, produced in 2019 by HBO). Further, the disaster of Fukushima, the debates related to nuclear energy in Italy, and the more recent forest fires around Chernobyl rose attention on the topic that we selected as the core of our knowledge model. In the development of the project, we decided to examine the phenomenon starting from the artefacts which took inspiration form it, either in direct or indirect way. We implemented a knowledge system starting from the central event and taking into consideration people, places, events, concepts and items related to it. In the implementation of the project, we operated a progressive abstraction of the model through various steps, in order to make it available for possible further representations of similar topics.</p>
+                        <h3 class="my-3">Who</h3>
+                        <p class="text-muted">Accordingly with the nature of the focal topic of our project, we decided to maintain the main focus on <em>events</em>, places and <em>dates</em> rather than on people. </p>
+                        <p class="text-muted">The perspective used to describe the <em>concept of people</em> is based on the decision to highlight the structurally relevant role of Valerij Alekseevič Legasov, the chemist who investigated the causes of the disaster. He is <em>depicted in</em> this <em>linked open data</em>  project as the <em>author</em> of one of the 12 items, and as the person conceptually related to some of the others, which are directly or indirectly <em>inspired by</em> him. </p>
+                        <p class="text-muted">
+                        Further, we mainly took in consideration people as participants in the process of realisation of the artefacts, either in their creative development, as <em>authors</em> or <em>creators</em>, or in their public disclosure, as <em>publishers</em>.</p>
                     </div>
                     <div class="col-md-12">
-                        <h4 class="my-3">Items' choice </h4>
-                        <p class="text-muted">We selected twelve items described by referenced cultural institutions, in order to build a knowledge model in which they could be related to the core topic. </p>
-                        <ul>
-                            <li> We variated as much as possible in the choice of both types and contents. Accordingly, we included: books (both eBooks and printed publications), a journal article, movies, audio files, photos, a painting and a videogame.</li>
-                            <li>As for the content, some of the items have their focus on the event itself, while others represent it indirectly, revisiting it (e.g.: “Grebeny- The burning village after Borsch”) or taking inspiration from it (e.g.: “Time will crawl”, song). Further, we included also artefacts freely inspired by the post-apocalyptic places abandoned after the event, or by further concepts and events related to the accident. In particular, some of them are connected to the long-term consequences of the explosion or to the legal process for the attribution of responsibilities. </li>
-                            <li>For this reason, not all of the items included in the model are structurally connected to the central event, since some of them are indirectly linked with it through other entities.</li>
-                        </ul>
+                        <h3 class="my-3">Where</h3>
+                        <p class="text-muted">The conceptual starting point of our project is the physical place of Pripyat, Ukraine, where the disaster of Chernobyl <em>took place</em>. The extent of its immediate consequences on the environment forced people to abandon the physical location around the nuclear power plant. For this reason, Pripyat – and in particular its exclusion zone – suddenly became an inaccessible dystopic area which <em>inspired</em> different kind of artefacts. </p>
+                        
+                        <p class="text-muted">The place has relevant connections with most of our items, either as <em>location</em> of their content or as <em>place of their creation</em>. Our effort was oriented to describe the area from different perspectives: for this reason, we included both items which <em>depicted</em> the location directly (e.g. the satellite picture) and which indirectly <em>took inspiration from</em> it (e.g. Wiley's  painting ).  </p>
+                        
+                        <p class="text-muted">Furthermore, in the description of the artefacts, we tried to give relevance also to the technical data related to the <em>current location</em> of the items and to their <em>places of creation</em> and <em>publication</em>.</p>
+                    </div>                    
+                    
+                    <div class="col-md-12">
+                        <h3 class="my-3">When</h3>
+                        <p class="text-muted">The day of the disaster represents a historical landmark: in fact, the explosion and the subsequent abandon of the radioactive red zone stopped the flow of human life in the area, in a sort of ever-lasting 26th of April 1986.</p>
+                        
+                        <p class="text-muted">Because of this assumption, we tried to focus on the date both as historical milestone and – consequently – as structural linker between the event and its representations. However, because of the lack in many metadata standards of a property clearly addressing the time <em>represented</em> in the items, we didn’t manage this specific aspect in the description of the artefacts.</p>
+                        
+                        <p class="text-muted">Instead, we mainly focused on the <em>dates of creation</em> and <em>publication</em> of the selected items, highlighting both the immediate impact of the disaster on the social perception and its long-lasting echo.</p>
                     </div>
+                    
+                    <div class="col-md-12">
+                        <h3 class="my-3">What</h3>
+                        <p class="text-muted">We considered the artefacts as the main focus of our project, highlighting their strong connections with the central event and between each other. The followed approach was to start from the items for the development of the connections, and to come back to them as a concrete manifestation of the main topic. In the selection, we tried to variate as much as possible both in the nature of the objects and in their <em>content</em>, in order to offer a materially and conceptually rich and complete panorama. </p>
+                        
+                        <p class="text-muted">Further, the choice of the artefacts was oriented to give an overview both of the event itself and of its material and legal consequences (e.g.: the <em>long-term effects</em> of the disaster and the related <em>trial</em>). </p>
+                    </div>
+                    
+                    <div class="col-md-12">
+                        <h3 class="my-3">Conceptual map</h3>
+                        <img src="assets/img/entity%20definitivo.jpeg" class="myimg">
+                        <br>
+                        <img src="assets/img/concmap2.png" class="myimg">
+                    </div>
+                    
                 </div>
             </div>
         </section>

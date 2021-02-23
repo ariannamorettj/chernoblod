@@ -534,6 +534,10 @@ h2, .h2 {
   font-size: 2rem;
 }
 
+h2.text-uppercase{
+    color: #9ACD32;
+}
+
 h3, .h3 {
   font-size: 1.75rem;
 }
@@ -6318,6 +6322,15 @@ button.bg-light:focus {
   background-color: #343a40 !important;
 }
 
+.bg-dark em{
+    background-color: #343A40;
+}
+
+.page-section a{
+    color:#040503;
+    background-color: #9ACD32 !important;
+}
+
 a.bg-dark:hover, a.bg-dark:focus,
 button.bg-dark:hover,
 button.bg-dark:focus {
@@ -10377,7 +10390,7 @@ header.masthead .masthead-heading {
 #portfolio .portfolio-item .portfolio-caption {
   padding: 1.5rem;
   text-align: center;
-  background-color: #fff;
+  background-color: #9ACD32;
 }
 #portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
   font-size: 1.5rem;
@@ -10665,3 +10678,9 @@ em{
     font-weight: bolder;
 }
 
+
+.myimg{
+    max-width: -webkit-fill-available;
+    display: inline-block;
+    margin-bottom: 3em;
+}
