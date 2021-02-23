@@ -173,6 +173,29 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+.line-1{
+    position: relative;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 100%;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
 }
@@ -180,7 +203,8 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 .masthead-heading{
     font-family: "a Angkatan Bersenjata"!important;
     word-break: break-all;
-    font-size: 9vw !important;   
+    font-size: 7vw !important; 
+    margin-top: 30px;
 }
 body {
   margin: 0;
@@ -572,6 +596,21 @@ mark,
   list-style: none;
 }
 
+.list-inline li{
+    color: yellowgreen;
+    font-weight: bolder;
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-bottom: 1em;
+}
+
+.list-inline em{
+    color:black;
+    background-color: snow;
+    font-style: normal;
+    font-weight: bolder;
+}
+
 .list-inline-item {
   display: inline-block;
 }
@@ -598,10 +637,7 @@ mark,
   content: "— ";
 }
 
-.img-fluid {
-  max-width: 100%;
-  height: auto;
-}
+
 
 .img-thumbnail {
   padding: 0.25rem;
@@ -6398,8 +6434,14 @@ button.bg-dark:focus {
 }
 
 .img-fluid{
-    min-width: 100% !important;
+    max-width: 100% !important;
+    min-width: 100%;
     max-height: 336px;
+}
+
+.img-fluid.d-block{
+    max-width: 100%;
+    max-height: max-content;
 }
 
 .rounded-pill {
@@ -10260,15 +10302,17 @@ header.masthead {
 header.masthead .masthead-subheading {
   font-size: 1.5rem;
   line-height: 1.5rem;
-  margin-bottom: 25px;
+  margin-bottom: 5px;
   font-family: 'Montserrat', sans-serif;
   font-style: normal !important;
 }
 header.masthead .masthead-heading {
-  font-size: 3.25rem;
+  font-size: 9vw !important;
+  padding-bottom: .5em;
+  padding-top: .5em;
   font-weight: 700;
   line-height: 3.25rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   font-family: "Soviet";
 }
 
@@ -10349,7 +10393,8 @@ header.masthead .masthead-heading {
   line-height: 3rem;
 }
 .portfolio-modal .modal-content p.item-intro {
-  font-style: italic;
+  font-style: normal;
+  text-align: center;
   margin-bottom: 2rem;
   font-family: "Soviet";
 }
@@ -10557,6 +10602,9 @@ header.masthead .masthead-heading {
   margin-bottom: 0;
 }
 
+#team p.text-muted{
+    text-align: center;
+}
 section#contact {
   background-color: #212529;
   background-image: url("../assets/img/map-image.png");
@@ -10625,4 +10673,6 @@ li{
 em{
     color: greenyellow;
     background-color: black;
+    font-style: normal;
+    font-weight: bolder;
 }
