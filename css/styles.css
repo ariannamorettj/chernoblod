@@ -223,10 +223,53 @@ body {
   outline: 0 !important;
 }
 
+::-webkit-scrollbar {
+ width: 11px;
+ height: 11px;
+}
+::-webkit-scrollbar-thumb {
+ background: linear-gradient(20deg, #343A40 5%,#343a40 80%);
+ border-radius: 0px;
+}
+::-webkit-scrollbar-thumb:hover{
+ background: radial-gradient(circle, #343A40 14%,#343a40 64%);
+}
+::-webkit-scrollbar-track{
+ background: #f1f1f1;
+ border-radius: 0px;
+ box-shadow: inset 7px -30px 12px #F1F1F1;
+}
+
+table{
+    overflow-x:scroll !important;
+    display: list-item;
+    padding: 2vw;
+    font-size: 80%;
+    margin-bottom: 4em!important;
+    
+}
+td{
+    font-weight: bolder;
+}
+
+thead{
+    background-color: #343A40 !important;
+    color: #9ACD32;
+}
+
+
+
+tr:nth-child(even) {background: #CCC}
+
+
 hr {
   box-sizing: content-box;
   height: 0;
   overflow: visible;
+}
+
+.myname{
+    color: #9ACD32 !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
