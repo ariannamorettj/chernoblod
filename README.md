@@ -1,1 +1,2 @@
 # chernoblod
+#### This repository contains the files of the Linked Open Data Project ChernobLOD (Chernobyl Disaster), available at <a href= "https://ariannamorettj.github.io/chernoblod/">https://ariannamorettj.github.io/chernoblod/</a>. The project was realized for the Knowledge Organization And Cultural Heritge course (2019/2020), of the Master's degree in Digital Humanities and Digital Knowledge, University of Bologna.
