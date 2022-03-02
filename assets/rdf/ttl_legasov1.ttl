@@ -1,0 +1,65 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+	@prefix foaf: <http://xmlns.com/foaf/spec/>.
+	@prefix schemaorg: <http://schema.org/>.
+	@prefix person: <http://www.w3.org/ns/person#>.
+	@prefix cwrc: <http://sparql.cwrc.ca/ontology/cwrc.html#>.
+	@prefix owl: <https://www.w3.org/TR/owl-semantics/>.
+	@prefix fabio: <https://sparontologies.github.io/fabio/current/fabio.html>.
+
+
+
+	<http://semanticweb.org/chernobLOD/Legasov>
+	    rdf:type    <http://xmlns.com/foaf/spec/#term_Person> ; 
+	   
+	    
+	    foaf:givenName	'Valerij Alekseevič', 'Валерий Алексеевич '@ru ;
+		foaf:surname	'Legasov', 'Легасов'@ru ;
+	    foaf:gender	'Male' ;
+	    schemaorg:birthPlace	'Tula', 'Тула'@ru ;
+	    person:countryOfBirth	'Russian SFSR', 'Российская Советская Федеративная Социалистическая Республика'@ru ;
+		schemaorg:nationality	'Russian' ;
+		schemaorg:deathPlace 'Moscow', 'Москва'@ru ;
+		person:countryOfDeath	'Russian SFSR', 'Российская Советская Федеративная Социалистическая Республика'@ru ;
+		cwrc:hasBurialPlace	'Novodevichy Cemetery of Moscow' ;
+		schemaorg:birthDate	'01 September 1936' ;
+		schemaorg:deathDate	'27 April 1988' ;
+		cwrc:hasCauseOfDeath	'Suicide by hanging' ;
+		cwrc:hasRole	'Chief of the commission investigating the Chernobyl disaster' ;
+		schemaorg:creator	'book : Lessons of Chernobyl' ;
+		schemaorg:memberOf [ 
+		schemaorg:Organization	'Mendeleev Moscow Institute of Chemical Technology' ;
+		schemaorg:Organization	'Moscow Institute of Physics and Technology' ;
+		schemaorg:Organization	'Academy of Sciences of the USSR' ;
+		schemaorg:Organization	'Faculty of Chemistry at Moscow State University' ;
+		schemaorg:Organization	'Kurchatov Institute of Atomic Energy' ;
+		] ;
+		cwrc:Occupation [   #proprità legata ad una classe
+		schemaorg:hasOccupation	'Chemist' ;
+		schemaorg:hasOccupation	'Nuclear Physicist' ;
+		];
+		schemaorg:knowsLanguage	'Russian' ;
+		cwrc:Award [
+		schemaorg:award	'Hero of the Russian Federation' ;
+		schemaorg:award 'Order of Lenin' ;
+		schemaorg:award 'Order of the Red Banner of Labour';
+		];
+		fabio:Biography 'Valerij Alekseevič Legasov was born in 1936 in URSS and died by hanging in 1988. He was a chemist and nuclear physicist. He investigated on Chernobyl disaster. ' ;
+		schemaorg:subjectOf 'Chernobyl Nuclear Disaster(Surviving disaster)(documentary episode)' ;
+
+		
+		
+		owl:sameAs <https://viaf.org/viaf/79344069/#Legasov,_V._A> ;
+		foaf:isPrimaryTopicOf	<http://www.europeanenergyforum.eu/memory-valery-legasov> ;
+		foaf:topic_interest	<https://www.wikidata.org/wiki/Q11165> ;
+		foaf:topic_interest	<http://id.loc.gov/authorities/subjects/sh85023017.html> ;
+		foaf:topic_interest	<https://en.wikipedia.org/wiki/Nuclear_physics> ;
+		schemaorg:memberOf	<https://en.wikipedia.org/wiki/D._Mendeleev_University_of_Chemical_Technology_of_Russia> ;
+		schemaorg:memberOf	<https://en.wikipedia.org/wiki/Moscow_Institute_of_Physics_and_Technology> ;
+		schemaorg:memberOf	<https://en.wikipedia.org/wiki/Russian_Academy_of_Sciences#The_Academy_of_Sciences_of_the_USSR> ;
+		schemaorg:memberOf	<http://www.chem.msu.ru/eng/welcome.html> ;
+		schemaorg:memberOf	<https://en.wikipedia.org/wiki/Kurchatov_Institute> ;
+		cwrc:hasInterpersonalRelationshipWith	<https://en.wikipedia.org/wiki/Ales_Adamovich> ;
+		cwrc:hasInterpersonalRelationshipWith	<https://www.imdb.com/name/nm0010696/> ;
+		schemaorg:colleague	<https://www.wikidata.org/wiki/Q935366> ;
+		schemaorg:colleague	<https://yivoencyclopedia.org/article.aspx/Kikoin_Isaak_Konstantinovich> .
+

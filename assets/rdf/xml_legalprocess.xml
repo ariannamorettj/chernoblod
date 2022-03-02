@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+	<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+		xmlns:edm="http://www.europeana.eu/schemas/edm/"
+		xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+		xmlns:schemaorg="http://schema.org/" 
+		xmlns:dcterms="https://www.dublincore.org/schemas/xmls/qdc/2008/02/11/dcterms.xsd"
+		xmlns:time="http://www.w3.org/2006/time#"
+		xmlns:skos="https://www.w3.org/2009/08/skos-reference/skos.html#"
+		xmlns:dc="https://www.dublincore.org/schemas/xmls/qdc/2008/02/11/dc.xsd"
+		xmlns:owl="https://www.w3.org/TR/owl-semantics/"
+		xmlns:foaf="http://xmlns.com/foaf/spec/" 
+	    xml:base="http://semanticweb.org/chernobLOD/Legal_Process">
+	<rdf:type rdf:resource="https://www.w3.org/2009/08/skos-reference/skos.html#Event"/>
+	<rdf:description rdf:about="http://semanticweb.org/chernobLOD/Legal_Process">
+	
+	<skos:prefLabel>Soviet Criminal trial for the disaster of Chernobyl</skos:prefLabel>
+	<schemaorg:subjectOf>Chernobyl (miniseries)</schemaorg:subjectOf>
+	<schemaorg:subjetOf>Surviving disaster (documentary)</schemaorg:subjetOf>
+	<crm:P17_was_motivated_by>Chernobyl disaster</crm:P17_was_motivated_by>
+	<crm:P11_had_participant>Valerij Alekseevič Legasov, as chief</crm:P11_had_participant>
+	<crm:P11_had_participant>Anatoly S. Dyatlov(former plant director)</crm:P11_had_participant>
+	<crm:P11_had_participant>Viktor P. Bryukhanov ( plant employee)</crm:P11_had_participant>
+	<crm:P11_had_participant>Nikolai M. Fomin (plant employee)</crm:P11_had_participant>
+	<crm:P11_had_participant>Boris V. Rogozhin (plant employee)</crm:P11_had_participant>
+	<crm:P11_had_participant>Aleksandr P. Kovalenko (plant employee)</crm:P11_had_participant>
+	<crm:P11_had_participant>Yuri A. Laushkin (Gosatomenergonadzor inspector)</crm:P11_had_participant>
+	<schemaorg:result>The people mentioned above have been sentenced</schemaorg:result>
+	<time:day>26 April 1986 (date of the disaster)</time:day>
+	<time:hasBeginning>7 July 1987 (start of the trial)</time:hasBeginning>
+	<time:hasEnd>30 July 1987 (end of the trial)</time:hasEnd>
+	<schemaorg:location>House of Culture in Chernobyl, Ukraine</schemaorg:location>
+	<schemaorg:location>Chernobyl, Prypyat (Exclusion Zone), Ukraine</schemaorg:location>
+	<dc:type>Legal process</dc:type>
+	<time:hasTemporalDuration>24 days</time:hasTemporalDuration>
+	<time:after>1 year, 2 months, 10 days</time:after>
+	<schemaorg:increasesRiskOf>Legasov death (The involvement in the process and the related irregularities in the attribution of responsibilities contributed to Legasov’s suicide, according to our resources).</schemaorg:increasesRiskOf>
+	<schemaorg:description>The trial of the men accused of responsibility for the world’s worst nuclear accident opened Monday in a makeshift courtroom in the Ukrainian town of Chernobyl.</schemaorg:description>
+	
+	<owl:sameAs rdf:resource="http://dbpedia.org/page/Legal_process"/>
+	<skos:related rdf:resource="https://it.wikipedia.org/wiki/Valerij_Alekseevič_Legasov"/>
+	<foaf:topic rdf:resource="https://en.wikipedia.org/wiki/Chernobyl_(miniseries)"/>
+	<skos:broader rdf:resource="https://en.wikipedia.org/wiki/Law"/>
+	<owl:equivalentClass rdf:resource="http://dbpedia.org/page/Trial"/>
+	<dcterms:isPartOf rdf:resource="https://en.wikipedia.org/wiki/Chernobyl_(miniseries)"/>	
+	</rdf:description>
+	</rdf:RDF>
+	
+	

@@ -28,8 +28,23 @@
                     <ul class="navbar-nav text-uppercase ml-auto">
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#project">Project</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Items</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Entities</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Project</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#entities">Entities</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#er"> ER Model</a></li> 
+                        
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#alignment"> Metadata Alignment</a></li>                   
+                        
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#theoretical">
+                        Theoretical Model</a></li>
+                        
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#conceptual">
+                        Conceptual Model</a></li>                       
+                        
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#description">
+                        Description of Data</a></li>
+                        
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#rdfxml">
+                        RDF/XML</a></li>
+                        
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team">Team</a></li>
                     </ul>
                 </div>
@@ -255,7 +270,7 @@
             </div>
         </section>
         <!-- About-->
-        <section class="page-section" id="about">
+        <section class="page-section" id="entities">
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase" id="Chernoblod">Entities</h2>
@@ -335,7 +350,7 @@
         </section>
         
     <!--ER Model-->    
-        <section class="page-section bg-dark" id="project">
+        <section class="page-section bg-dark" id="er">
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">ER Model</h2>
@@ -365,10 +380,10 @@
         
         <!-- Metadata Alignment-->
         
-                <section class="page-section" id="project">
+                <section class="page-section" id="alignment">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Metadata Alignments</h2>
+                    <h2 class="section-heading text-uppercase">Metadata Alignment</h2>
                 </div>
                 <div class="row text-center">
                     <div class="col-md-12">
@@ -424,7 +439,7 @@
         
         <!-- Theoretical Model-->
         
-            <section class="page-section bg-dark" id="project">
+            <section class="page-section bg-dark" id="theoretical">
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Theoretical Model</h2>
@@ -490,7 +505,7 @@
         
         <!-- Conceptual Model-->
         
-            <section class="page-section" id="project">
+            <section class="page-section" id="conceptual">
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Conceptual Model</h2>
@@ -565,7 +580,7 @@
         
          <!-- Description of Data-->
         
-            <section class="page-section bg-dark" id="project">
+            <section class="page-section bg-dark" id="description">
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Description of Data</h2>
@@ -624,7 +639,7 @@
         
         <!-- RDF/XML-->
         
-            <section class="page-section" id="project">
+            <section class="page-section" id="rdfxml">
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">RDF/XML</h2>
@@ -650,25 +665,40 @@ In the end, we displayed our RDF files as <em>graphs</em>, in order to visualise
                     
                     
                         <div class="col-md-12">
+                            
+                        <br>
                         <h3 class="my-3">PRIPYAT</h3>
-                        <h4 class="my-3">xml-rdf</h4>
-                        <h4 class="my-3">Turtle-rdf</h4>
-                        <h4 class="my-3">rdf Graph</h4>
+                        <ul>
+                            <li> <a href="assets/rdf/xml_place.xml">Download XML file</a></li>
+                            <li><a href="assets/rdf/ttl_place1.ttl">Download Turtle file</a></li>
+                        </ul>
+                        <a href="assets/rdf/graph_pripyat.jpeg"><img src="assets/rdf/graph_pripyat.jpeg" class="myimg"></a>
                         
+                        <br>
                         <h3 class="my-3">26 April 1986</h3>
-                        <h4 class="my-3"> xml-rdf</h4>
-                        <h4 class="my-3"> Turtle-rdf</h4>
-                        <h4 class="my-3">rdf Graph</h4>
+                        <ul>
+                            <li> <a href="assets/rdf/xml_date.xml">Download XML file</a></li>
+                            <li><a href="assets/rdf/ttl_time1.ttl">Download Turtle file</a></li>
+                        </ul>
+                        <a href="assets/rdf/graph_date.jpeg"><img src="assets/rdf/graph_date.jpeg" class="myimg"></a>
+
+                            
                         
+                        <br>
                         <h3 class="my-3">Legal Process</h3>
-                        <h4 class="my-3"> xml-rdf</h4>
-                        <h4 class="my-3"> Turtle-rdf</h4>
-                        <h4 class="my-3">rdf Graph</h4>
+                        <ul>
+                            <li> <a href="assets/rdf/xml_legalprocess.xml">Download XML file</a></li>
+                            <li><a href="assets/rdf/ttl_event1.ttl">Download Turtle file</a></li>
+                        </ul>
+                        <a href="assets/rdf/graph_event.jpeg"><img src="assets/rdf/graph_event.jpeg" class="myimg"></a>
                         
+                        <br>
                         <h3 class="my-3">Valerij Alekseevič Legasov</h3>
-                        <h4 class="my-3"> xml-rdf</h4>
-                        <h4 class="my-3"> Turtle-rdf</h4>
-                        <h4 class="my-3">rdf Graph</h4>
+                        <ul>
+                            <li> <a href="assets/rdf/xml_legasov.xml">Download XML file</a></li>
+                            <li><a href="assets/rdf/ttl_legasov1.ttl">Download Turtle file</a></li>
+                        </ul>
+                        <a href="assets/rdf/graph_person.jpeg"><img src="assets/rdf/graph_person.jpeg" class="myimg"></a>
 
                     </div>
                     
@@ -689,10 +719,7 @@ In the end, we displayed our RDF files as <em>graphs</em>, in order to visualise
                         <div class="team-member">
                             <img class="mx-auto rounded-circle" src="assets/img/team/ama.jpeg" alt="" />
                             <h4 class="myname">Amanda Culoma</h4>
-                            <p class="text-muted">Born and raised in Pantelleria, graduated in Classical Studies at the University of Bologna. She Is now attending the Master Degree in Digital Humanities and Digital Knowledge at the same universities.</p>
-                            <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+                            <p class="text-muted">Born and raised in Pantelleria, graduated in Classical Studies at the University of Bologna. She Is now attending the Master Degree in Digital Humanities and Digital Knowledge at the same universities.</p>                   <p class="text-muted"><a href="mailto:amanda.culoma@studio.unibo.it">amanda.culoma@studio.unibo.it</a></p>
                         </div>
                     </div>
                     <div class="col-lg-3">
@@ -700,9 +727,7 @@ In the end, we displayed our RDF files as <em>graphs</em>, in order to visualise
                             <img class="mx-auto rounded-circle" src="assets/img/team/aria.jpeg" alt="" />
                             <h4 class="myname">Arianna Moretti</h4>
                             <p class="text-muted">In 2019 Arianna got her bachelor's degree in Anthropology and she regretted it almost immediately. Then she repented and she enroled to Digital Humanities and Digital Knowledge Master Degree Course at the University of Bologna, where she is currently studying. She realized too late that she wanted to be a Doctor, so she recently found a compromise solution in being interested in Digital Health studies and -in particular- in Artificial Intelligence applications to biomedical research. She insanely prefers cats over dogs and Python over JavaScript.</p>
-                            <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+                            <p class="text-muted"><a href="mailto:arianna.moretti2@studio.unibo.it">arianna.moretti2@studio.unibo.it</a></p>
                         </div>
                     </div>
                     <div class="col-lg-3">
@@ -710,25 +735,17 @@ In the end, we displayed our RDF files as <em>graphs</em>, in order to visualise
                             <img class="mx-auto rounded-circle" src="assets/img/team/arie.jpeg" alt="" />
                             <h4 class="myname">Ariele Santello</h4>
                             <p class="text-muted">Graduated in Modern Literature at the University of Bologna with a thesis about Weblogs. She is now attending the Digital Humanities and Digital Knowledge Master at the University of Bologna. She has always been in love with culture and art and she is now trying to exploit technologies as a mean to spread cultural issues over an audience as wide as possible. She loves everything related to Japan and she finds happiness in good weather and great food with good company.</p>
-                            <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+                            <p class="text-muted"><a href="mailto:ariele.santello@studio.unibo.it">ariele.santello@studio.unibo.it</a></p>    
                         </div>
                     </div>
                     <div class="col-lg-3">
                         <div class="team-member">
                             <img class="mx-auto rounded-circle" src="assets/img/team/ben.jpeg" alt="" />
                             <h4 class="myname">Benedetta Togni</h4>
-                            <p class="text-muted">Graduated in Languages and Cultures for the Publishing Industry at the University of Verona where she cultivated her intersts in german linguistic and literature. She is now a student of Digital Humanities and Digital Knowledge in Bologna. She has a troubled and unrequited love with both German language and Python programming. She is interested in data analysis and data visualization. Her free time passions are martial arts, every shade of rock music and good movies.</p>
-                            <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+                            <p class="text-muted">Graduated in Languages and Cultures for the Publishing Industry at the University of Verona where she cultivated her intersts in german linguistic and literature. She is now a student of Digital Humanities and Digital Knowledge in Bologna. She has a troubled and unrequited love with both German language and Python programming. She is interested in data analysis and data visualization. Her free time passions are martial arts, every shade of rock music and good movies.</p>                             
+                            <p class="text-muted"><a href="mailto:benedetta.togni@studio.unibo.it">benedetta.togni@studio.unibo.it</a></p>
                         </div>
                     </div>
-                    
-                </div>
-                <div class="row">
-                    <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p></div>
                 </div>
             </div>
         </section>
@@ -739,13 +756,11 @@ In the end, we displayed our RDF files as <em>graphs</em>, in order to visualise
                 <div class="row align-items-center">
                     <div class="col-lg-4 text-lg-left">Copyright © ChernobLOD 2020</div>
                     <div class="col-lg-4 my-3 my-lg-0">
-                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-                    <div class="col-lg-4 text-lg-right">
-                        <a class="mr-3" href="#!">Privacy Policy</a>
-                        <a href="#!">Terms of Use</a>
+                        <p>
+SECOND CYCLE DEGREE/TWO YEAR MASTER IN
+<a href="https://corsi.unibo.it/2cycle/DigitalHumanitiesKnowledge">DIGITAL HUMANITIES AND DIGITAL KNOWLEDGE</a><br> University of Bologna <br> DEGREE PROGRAMME CLASS: LM-43 - Information technology methods for the humanities <br> DEPARTMENT:
+Classical Philology and Italian Studies - FICLIT    </p>
+                       
                     </div>
                 </div>
             </div>

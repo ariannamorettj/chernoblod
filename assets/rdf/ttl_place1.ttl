@@ -1,0 +1,32 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+	@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+	@prefix wgs84_pos: <http://www.geonames.org/ontology/ontology_v3.2.rdf> .
+	@prefix schemaorg: <http://schema.org/> .
+	@prefix gn: <http://www.geonames.org/ontology/documentation.html#> .
+	@prefix owl: <https://www.w3.org/TR/owl-semantics/> .
+	@prefix skos: <https://www.w3.org/2009/08/skos-reference/skos.html#> . 
+	
+	
+	<http://semanticweb.org/chernobLOD/Pripyat>
+		rdf:type <https://schema.org/Place>;
+		crm:P87_is_identified_by 'Pripyat, Oblast di Kiev, Ukraine';
+		schemaorg:event 'Chernobyl disaster';
+		gn:postalCode 'none (formerly 01196)';
+		gn:alternateName 'Exclusion zone';
+		schemaorg:geo '51° 24 N 30° 03 E';
+		wgs84_pos:lat 'Latitude 51° N';
+		wgs84_pos:long 'Longitude 30° E';
+		schemaorg:addressCountry 'Ukraine (Ukrainian Soviet Socialist Republic)';
+		schemaorg:hasMap  <https://artsandculture.google.com/asset/1AG0q4L-OknvyQ>; 
+		schemaorg:P15_was_influenced_by 'S.T.A.L.K.E.R. Shadow of Chernobyl videogame ';
+		schemaorg:subjectOf 'Chernobyl Elephant's foot photograph';
+		schemaorg:subjectOf 'Chernobyl Nuclear Power Plant satellite picture';
+		schemaorg:subjectOf 'Chernobyl 01:23:40 eBook';
+
+		
+		owl:sameAs <https://it.wikipedia.org/wiki/Pryp%22jat%27_(città)> ;
+		owl:differentFrom <https://it.wikipedia.org/wiki/Pryp%22jat%27_(fiume)>;
+		skos:related <http://dbpedia.org/page/Chernobyl_disaster>;
+		skos:narrower <https://viaf.org/viaf/248687163/#Чернобыльская_АЭС>;
+		skos:broader <https://viaf.org/viaf/134334037/#Ukraine> .
+		

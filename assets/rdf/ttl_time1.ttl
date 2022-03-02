@@ -1,0 +1,40 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+	@prefix schemaorg: <http://schema.org/> .
+	@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+	@prefix time: <http://www.w3.org/2006/time#> .
+	@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+	@prefix dcterms: <https://www.dublincore.org/schemas/xmls/qdc/2008/02/11/dcterms.xsd> .
+	@prefix owl: <https://www.w3.org/TR/owl-semantics/> .
+	@prefix skos: <https://www.w3.org/2009/08/skos-reference/skos.html#> . 
+	@prefix fabio: <https://sparontologies.github.io/fabio/current/fabio.html> .
+	
+	
+	
+	<http://semanticweb.org/chernobLOD/1986>
+		rdf:type <https://www.w3.org/TR/owl-time/#year>;
+		fabio:hasdate '1986_04_26';
+		time:year '1986' ;
+		time:MonthOfYear 'Spring' ;
+		time:hour '01:23:40';
+		time:TimeZone 'MSD (UTC+04:00)' ;
+		crm:P78_is_identified_by '20th century' ;
+		crm:P78_is_identified_by 'Late years of the cold war period' ; 
+		schemaorg:subjectOf 'Chernobyl 01:23:40';
+		time:hasDateTimeDescription 'In this date the fourth reactor of the Chernobyl Nuclear power plant exploded causing the disaster';
+		
+		
+		
+		owl:sameAs <https://it.wikipedia.org/wiki/1986> ;
+		edm:isRelatedTo <https://www.wikidata.org/wiki/Q486> ;
+		skos:broader <http://dbpedia.org/page/Cold_War> ;
+		skos:narrower <http://dbpedia.org/page/Category:1986_in_the_Soviet_Union> ;
+		dcterms:isPartOf <https://en.wikipedia.org/wiki/Chernobyl_(miniseries)> .
+		 
+		
+		 
+	
+	
+	
+
+
+

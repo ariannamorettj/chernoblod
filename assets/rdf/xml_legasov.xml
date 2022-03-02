@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+	<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+		xmlns:foaf="http://xmlns.com/foaf/spec/" 
+		xmlns:schemaorg="http://schema.org/" 
+		xmlns:person="http://www.w3.org/ns/person#" 
+		xmlns:cwrc="http://sparql.cwrc.ca/ontology/cwrc.html#" 
+		xmlns:owl="https://www.w3.org/TR/owl-semantics/"
+		xmlns:fabio="http://purl.org/spar/fabio"
+	    xml:base="http://semanticweb.org/chernobLOD/Legasov">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/spec/#term_Person"/>
+	<rdf:description rdf:about="http://semanticweb.org/chernobLOD/Legasov">
+	
+	<foaf:givenName>Valerij Alekseevič</foaf:givenName>
+		<foaf:givenName xml:lang="ru">Валерий Алексеевич</foaf:givenName>
+	<foaf:surname>Legasov</foaf:surname>
+		<foaf:surname xml:lang="ru">Легасов</foaf:surname>
+	<foaf:gender>Male</foaf:gender>
+	<schemaorg:birthPlace>Tula</schemaorg:birthPlace>
+		<schemaorg:birthPlace xml:lang="ru">Тула</schemaorg:birthPlace>
+	<schemaorg:deathPlace>Moscow</schemaorg:deathPlace>
+		<schemaorg:deathPlace xml:lang="ru">Москва</schemaorg:deathPlace>
+	<person:countryOfBirth>Russian SFSR</person:countryOfBirth>
+		<person:countryOfBirth xml:lang="ru">Российская Советская Федеративная Социалистическая Республика</person:countryOfBirth>
+	<schemaorg:nationality>Russian</schemaorg:nationality>
+	<person:countryOfDeath>Russian SFSR</person:countryOfDeath>
+		<person:countryOfDeath xml:lang="ru">Российская Советская Федеративная Социалистическая Республика</person:countryOfDeath>
+	<cwrc:hasBurialPlace>Novodevichy Cemetery of Moscow</cwrc:hasBurialPlace>
+	<schemaorg:birthDate>01 September 1936</schemaorg:birthDate>
+	<schemaorg:deathDate>27 April 1988</schemaorg:deathDate>
+	<cwrc:hasCauseOfDeath>Suicide by hanging</cwrc:hasCauseOfDeath>
+	<cwrc:hasRole>Chief of the commission investigating the Chernobyl disaster</cwrc:hasRole>
+	<schemaorg:creator>Lessons of Chernobyl (book)</schemaorg:creator>
+	<fabio:Biography>The person we chose to focus on is Valerij Alekseevič Legasov (1936-1988), who had a leading role both in the investigation and in the legal process related to the Chernobyl disaster. 
+	Awarded chemist and physicist, Legasov spent his last two years of life investigating the causes of Chernobyl meltdown. 
+	Unfortunately, the deep emotional involvement led him to the decision to end his life the day after the second anniversary of the explosion. 
+	He left some tapes in which voiced the strong disillusionment with his government and some written notes. 
+	We decided to insert among our items his book, titled “The lessons of Chernobyl are important for all”. </fabio:Biography>
+	<schemaorg:memberOf>
+		<schemaorg:Organization>Mendeleev Moscow Institute of Chemical Technology</schemaorg:Organization>
+		<schemaorg:Organization>Moscow Institute of Physics and Technology</schemaorg:Organization>
+		<schemaorg:Organization>Academy of Sciences of the USSR</schemaorg:Organization>
+		<schemaorg:Organization>Faculty of Chemistry at Moscow State University</schemaorg:Organization>
+		<schemaorg:Organization>Kurchatov Institute of Atomic Energy</schemaorg:Organization>
+	</schemaorg:memberOf>
+	<schemaorg:hasOccupation>
+	<cwrc:Occupation>Chemist</cwrc:Occupation>
+	<cwrc:Occupation>Nuclear Physicist</cwrc:Occupation>
+	</schemaorg:hasOccupation>
+	<schemaorg:knowsLanguage>Russian</schemaorg:knowsLanguage>
+	<schemaorg:award>
+	<cwrc:Award>Hero of the Russian Federation</cwrc:Award>
+	<cwrc:Award>Order of Lenin</cwrc:Award>
+	<cwrc:Award>Order of the Red Banner of Labour</cwrc:Award>
+	</schemaorg:award>
+	<fabio:Biography>Valerij Alekseevič Legasov was born in 1936 in URSS and died by hanging in 1988. He was a chemist and nuclear physicist. He investigated on Chernobyl disaster.</fabio:Biography>
+	<schemaorg:subjectOf>Chernobyl Nuclear Disaster (Surviving disaster)(documentary episode)</schemaorg:subjectOf>
+	
+
+	<owl:sameAs rdf:resource="https://viaf.org/viaf/79344069/#Legasov,_V._A"/>
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.europeanenergyforum.eu/memory-valery-legasov"/>
+	<foaf:topic_interest rdf:resource="https://www.wikidata.org/wiki/Q11165"/>
+	<foaf:topic_interest rdf:resource="http://id.loc.gov/authorities/subjects/sh85023017.html"/>	
+	<foaf:topic_interest rdf:resource="https://en.wikipedia.org/wiki/Nuclear_physics"/>
+	<schemaorg:memberOf rdf:resource="https://en.wikipedia.org/wiki/D._Mendeleev_University_of_Chemical_Technology_of_Russia"/>
+	<schemaorg:memberOf rdf:resource="https://en.wikipedia.org/wiki/Moscow_Institute_of_Physics_and_Technology"/>
+	<schemaorg:memberOf rdf:resource="https://en.wikipedia.org/wiki/Russian_Academy_of_Sciences#The_Academy_of_Sciences_of_the_USSR"/>
+	<schemaorg:memberOf rdf:resource="http://www.chem.msu.ru/eng/welcome.html"/>
+	<schemaorg:memberOf rdf:resource="https://en.wikipedia.org/wiki/Kurchatov_Institute"/>
+	<cwrc:hasInterpersonalRelationshipWith rdf:resource="https://en.wikipedia.org/wiki/Ales_Adamovich"/>
+	<cwrc:hasInterpersonalRelationshipWith rdf:resource="https://www.imdb.com/name/nm0010696/"/>
+	<schemaorg:colleague rdf:resource="https://www.wikidata.org/wiki/Q935366"/>
+	<schemaorg:colleague rdf:resource="https://yivoencyclopedia.org/article.aspx/Kikoin_Isaak_Konstantinovich"/>
+	
+	
+	</rdf:description>
+	</rdf:RDF>
+          
+
+      

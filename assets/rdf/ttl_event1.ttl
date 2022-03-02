@@ -1,0 +1,51 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+	@prefix edm: <http://www.europeana.eu/schemas/edm/>.
+	@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+	@prefix skos: <https://www.w3.org/2009/08/skos-reference/skos.html#>. 
+	@prefix schemaorg: <http://schema.org/>.
+	@prefix dcterms: <https://www.dublincore.org/schemas/xmls/qdc/2008/02/11/dcterms.xsd>.
+	@prefix dc: <https://www.dublincore.org/schemas/xmls/qdc/2008/02/11/dc.xsd>. 
+	@prefix owl: <https://www.w3.org/TR/owl-semantics/>.
+	@prefix time: <http://www.w3.org/2006/time#>.
+	@prefix foaf: <http://xmlns.com/foaf/spec/>.
+	
+	<http://semanticweb.org/chernobLOD/Legal_Process>
+		rdf:type <https://www.w3.org/2009/08/skos-reference/skos.html#Concept%22/> ;
+		skos:prefLabel 'Soviet Criminal trial for the disaster of Chernobyl';
+		crm:P17_was_motivated_by 'Chernobyl disaster';
+		schemaorg:SubjectOf 'Chernobyl (mini series)';
+		schemaorg:SubjectOf 'Surviving disaster (documentary)';
+		crm:P11_had_participant 'Valerij Alekseevič Legasov as chief'; 
+		crm:P11_had_participant 'Anatoly S. Dyatlov(former plant director)';
+		crm:P11_had_participant 'Viktor P. Bryukhanov (plant employee)' ;
+		crm:P11_had_participant 'Nikolai M. Fomin (plant employee)';
+		crm:P11_had_participant 'Boris V. Rogozhin (plant employee)';
+		crm:P11_had_participant 'Aleksandr P. Kovalenko (plant employee)';
+		crm:P11_had_participant 'Yuri A. Laushkin (Gosatomenergonadzor inspector)';
+		schemaorg:result 'The people mentioned above have been sentenced' ;
+		time:day '26 April 1986 (date of the disaster)';
+		time:hasBeginning '7 July 1987' ;
+		time:hasEnd '30 July 1987' ;
+		schemaorg:location 'House of Culture in Chernobyl, Ukraine' ;
+		schemaorg:location 'Chernobyl, Prypyat (Exclusion Zone), Ukraine';
+		dc:type 'Legal process';
+		time:hasTemporalDuration '24 days';
+		dc:subject 'Attribution of responsibility for the disaster of Chernoby';
+		time:after '1 year, 2 months, 10 days';
+		schemaorg:IncreasesRiskOf 'Legasov death (The involvement in the process and the related irregularities in the attribution of responsibilities contributed to Legasov’s suicide, according to our resources)'; 
+		schemaorg:description 'The trial of the men accused of responsibility for the world’s worst nuclear accident opened Monday in a makeshift courtroom in the Ukrainian town of Chernobyl.';
+		
+		owl:sameAs <http://dbpedia.org/page/Legal_process>;
+		skos:related <https://it.wikipedia.org/wiki/Valerij_Alekseevič_Legasov>;
+		foaf:topic <https://en.wikipedia.org/wiki/Chernobyl_(miniseries)>;
+		skos:broader <https://en.wikipedia.org/wiki/Law>;
+		owl:equivalentClass <http://dbpedia.org/page/Trial>;
+		dcterms:isPartOf <https://en.wikipedia.org/wiki/Chernobyl_(miniseries)>.
+		
+		
+
+		
+
+		
+
+	

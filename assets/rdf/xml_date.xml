@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+	<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+		xmlns:fabio="http://purl.org/spar/fabio"
+		xmlns:schemaorg="http://schema.org/" 
+		xmlns:edm="http://www.europeana.eu/schemas/edm/"
+		xmlns:time="http://www.w3.org/2006/time#"
+		xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+		xmlns:dcterms="https://www.dublincore.org/schemas/xmls/qdc/2008/02/11/dcterms.xsd"
+		xmlns:owl="https://www.w3.org/TR/owl-semantics/"
+		xmlns:skos="https://www.w3.org/2009/08/skos-reference/skos.html#"
+	    xml:base="http://semanticweb.org/chernobLOD/1986">
+	<rdf:type rdf:resource="https://www.w3.org/TR/owl-time/#year"/>
+	<rdf:description rdf:about="http://semanticweb.org/chernobLOD/1986">
+	
+	<fabio:hasdate>1986-04-26</fabio:hasdate>
+	<time:year>1986</time:year>
+	<time:MonthOfYear>Spring</time:MonthOfYear>
+	<time:hour>01:23:40</time:hour>
+	<time:TimeZone>MSD (UTC+04:00)</time:TimeZone>
+	<crm:P78_is_identified_by>20th century</crm:P78_is_identified_by>
+	<crm:P78_is_identified_by>Late years of the Cold War period</crm:P78_is_identified_by>
+	<schemaorg:subjectOf>Chernobyl 01:23:40 (ebook)</schemaorg:subjectOf>
+	<time:hasDateTimeDescription>In this date the fourth reactor of the Chernobyl Nuclear power plant exploded causing the disaster</time:hasDateTimeDescription>
+
+	<owl:sameAs rdf:resource="https://it.wikipedia.org/wiki/1986"/>
+	<edm:isRelatedTo rdf:resource="https://www.wikidata.org/wiki/Q486"/>
+	<skos:broader rdf:resource="http://dbpedia.org/page/Cold_War"/>
+	<skos:narrower rdf:resource="http://dbpedia.org/page/Category:1986_in_the_Soviet_Union"/>
+	<dcterms:isPartOf rdf:resource="https://en.wikipedia.org/wiki/Chernobyl_(miniseries)"/>	
+	</rdf:description>
+	</rdf:RDF>
+          
+
+      

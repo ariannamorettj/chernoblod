@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+	<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+		xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+		xmlns:wgs84_pos="http://www.geonames.org/ontology/ontology_v3.2.rdf" 
+		xmlns:gn="http://www.geonames.org/ontology#" 
+		xmlns:schemaorg="http://schema.org/" 
+		xmlns:skos="https://www.w3.org/2009/08/skos-reference/skos.html#"	
+		xmlns:owl="https://www.w3.org/TR/owl-semantics/"
+	    xml:base="http://semanticweb.org/chernobLOD/Legal_Process">
+	<rdf:type rdf:resource="http://schema.org/Place"/>
+	<rdf:description rdf:about="http://semanticweb.org/chernobLOD/Pripyat">
+	
+	<crm:P87is_identified_by>Pripyat, Oblast' di Kiev, Ukraine</crm:P87is_identified_by>
+	<schemaorg:event>Chernobyl disaster</schemaorg:event>
+	<gn:postalCode>None (formerly 01196)</gn:postalCode>
+	<gn:alternateName>Exclusion zone</gn:alternateName>
+	<schemaorg:geo>51°24’N 30°03’E</schemaorg:geo>
+	<wgs84_pos:lat>Latitude 51° N</wgs84_pos:lat>
+	<wgs84_pos:long>Longitude 30° E</wgs84_pos:long>
+	<schemaorg:addressCountry>Ukraine (Ukrainian Soviet Socialist Republic)</schemaorg:addressCountry>
+	<schemaorg:hasMap rdf:resource="https://artsandculture.google.com/asset/1AG0q4L-OknvyQ"/> 
+	<schemaorg:subjectOf>Chernobyl Elephant's foot (photograph)</schemaorg:subjectOf>
+	<schemaorg:subjectOf>Chernobyl Nuclear Power Plant (satellite picture)</schemaorg:subjectOf>
+	<schemaorg:subjectOf>Chernobyl 01:23:40 (eBook)</schemaorg:subjectOf>
+	<crm:P15_was_influenced_by>S.T.A.L.K.E.R. Shadow of Chernobyl (videogame)</crm:P15_was_influenced_by>
+
+
+
+	<owl:sameAs rdf:resource="https://it.wikipedia.org/wiki/Pryp%22jat%27_(città)"/>
+	<owl:differentFrom rdf:resource="https://it.wikipedia.org/wiki/Pryp%22jat%27_(fiume)"/>
+	<skos:related rdf:resource="http://dbpedia.org/page/Chernobyl_disaster"/>
+	<skos:narrower rdfresource="https://viaf.org/viaf/248687163/#Чернобыльская_АЭС"/>
+	<skos:broader rdf:resource="https://viaf.org/viaf/134334037/#Ukraine"/>
+	</rdf:description>
+	</rdf:RDF>
+	
+	
